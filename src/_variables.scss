@@ -42,23 +42,6 @@ $color-text-blockquote: $color-text-muted !default;
 // `mark`
 $color-background-mark: #ff0 !default;
 
-// Tables
-$color-background-table: $color-background !default;
-$color-background-th: $color-background-over !default;
-
-// Forms
-// For `input`s which is not a button
-$color-background-input: $color-background !default;
-// For focused input
-$color-border-input-focus: hsl(210, 100%, 60%) !default;
-// For buttons
-$color-background-btn: $color-background-back !default;
-$color-text-btn-primary: $color-background !default;
-$color-background-btn-primary: hsl(120, 50%, 50%) !default;
-$color-text-btn-danger: hsl(0, 100%, 40%) !default;
-//For optgroup
-$color-optgroup: $color-text-muted;
-
 //
 // Spacing
 //
@@ -94,7 +77,7 @@ $width-container-breakpoint: $max-width-container + $max-width-side + $width-scr
 //
 // Typography
 //
-
+/*
 // 1rem = 10px
 $rem-base: 10px !default;
 
@@ -161,33 +144,4 @@ $border-top-hr: $width-border solid $color-border !default;
 
 // Set the default max-height to scroll-view
 $max-height-scroll-view: 300px !default;
-
-
-//
-// Tables
-//
-
-$padding-table-cell: $width-padding-input !default;
-$border-bottom-th-td: $width-border solid $color-border !default;
-
-//
-// Forms
-//
-
-// For inputs
-$border-radius-input: 3px !default;
-$padding-input: $width-padding-input 2 * $width-padding-input !default;
-$border-input: $width-border solid $color-border !default;
-// For file input
-$padding-file: $width-padding-border-input 0 !default;
-
-// For checkbox and radio
-$margin-checkbox-radio: 0 $width-padding-input 0 0 !default;
-// 5px padding + 1px border
-$width-padding-top-label: $width-padding-border-input !default;
-$width-padding-bottom-label: $width-padding-border-input !default;
-
-$padding-legend: 0 3px !default;
-
-// Background image of down arrow
-$background-image-angle-down: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='20' viewBox='0 0 32 20'><path fill='#{$color-text}' d='M0 0h32L16 20z'/></svg>") !default;
+*/
